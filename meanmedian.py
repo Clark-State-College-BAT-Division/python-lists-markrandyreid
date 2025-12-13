@@ -15,7 +15,7 @@ while len(user_numbers) < 5:
 print(f'You entered:{user_numbers}')
 
 
-#copy list
+#copy list to change
 #sort method sorts in place, so you have to sort then assign
 gamma = user_numbers.copy()
 gamma.sort(reverse=True)
